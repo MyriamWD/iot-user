@@ -1,0 +1,29 @@
+body {
+    background: whitesmoke;
+}
+
+.display-button {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+button {       
+    font-size: 2rem;
+    border-radius: 50%; 
+    width: 200px;
+    height: 200px;
+    background: purple;
+    color: white;
+    border: none;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.on{
+    background: green; 
+}
+
+.off{
+    background: darkred;
+}
